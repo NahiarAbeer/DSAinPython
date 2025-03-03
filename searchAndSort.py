@@ -4,8 +4,6 @@ def bubble_sort(li):
         for i in range(0,n-1):
             if li[ i ] > li[i+1]:
                 li[i+1] , li[i]=li[i], li [ i+1 ]
-            else:
-                pass
     return li
 def seletion_sort(l):
     n = len(l)
